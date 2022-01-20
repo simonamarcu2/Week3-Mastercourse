@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background: linear-gradient(
+    49deg,
+    rgba(13, 217, 255, 1) 0%,
+    rgba(20, 95, 231, 1) 50%,
+    rgba(156, 36, 230, 1) 100%
+  );
+  padding: 0;
+  margin: 0;
+}
+
+.barrel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+}
+
+#title {
+  font-size: 5em;
+  text-align: center;
+}
+
+#resultView {
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.key {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  width: 100%;
+}
+
+/* .header {
+  font-size: 4em;
+} */
+
+@media (max-width: 512px) {
+  .show {
+    flex-direction: column;
+  }
+}
